@@ -1,29 +1,26 @@
 {
   "name": "nodeproject",
   "version": "1.0.0",
-  "description": "My first Node server",
+  "description": "My first webserver",
   "main": "app.js",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "mysql": "^2.16.0",
+    "nodemon": "^1.18.10"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/rlashley/nodeProject.git"
+    "url": "git+https://github.com/rlashley/nodeProject.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/rlashley/nodeProject/issues"
   },
-  "homepage": "https://github.com/rlashley/nodeProject#readme",
-  "dependencies": {
-    "@angular/cli": "^7.3.3",
-    "@mysql/xdevapi": "^8.0.15",
-    "ejs": "^2.6.1",
-    "express": "^4.16.4",
-    "mysql": "^2.16.0",
-    "body-parser": "^1.18.3",
-    "nodemon": "^1.18.10",
-    "vue": "3.5.1"
-  }
+  "homepage": "https://github.com/rlashley/nodeProject#readme"
 }
